@@ -7,7 +7,11 @@ import RoomPage from './pages/RoomPage';
 
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth();
-  if (loading) return <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color: 'var(--text2)' }}>Loading...</div>;
+  if (loading) return (
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color: 'var(--text2)', fontFamily: "'Cinzel', serif", letterSpacing: 3, fontSize: 13 }}>
+      LOADING...
+    </div>
+  );
   return user ? children : <Navigate to="/" replace />;
 }
 
@@ -24,9 +28,9 @@ export default function App() {
         <Toaster
           position="top-center"
           toastOptions={{
-            style: { background: 'var(--bg3)', color: 'var(--text)', border: '1px solid var(--border)', fontFamily: 'DM Sans, sans-serif', fontSize: 14 },
-            success: { iconTheme: { primary: 'var(--green)', secondary: 'var(--bg3)' } },
-            error: { iconTheme: { primary: 'var(--red)', secondary: 'var(--bg3)' } },
+            style: { background: 'rgba(13,34,51,0.95)', color: '#d4f5e8', border: '1px solid rgba(60,180,130,0.3)', fontFamily: 'Lato, sans-serif', fontSize: 14, backdropFilter: 'blur(8px)' },
+            success: { iconTheme: { primary: '#5de8b8', secondary: 'rgba(13,34,51,0.95)' } },
+            error: { iconTheme: { primary: '#ff5565', secondary: 'rgba(13,34,51,0.95)' } },
           }}
         />
         <Routes>
