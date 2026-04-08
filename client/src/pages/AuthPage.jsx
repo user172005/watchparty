@@ -94,7 +94,7 @@ function Starfield() {
 }
 
 const styles = {
-  page: { minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#080f0c', position: 'relative', overflow: 'hidden' },
+  page: { minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#070e14', position: 'relative', overflow: 'hidden' },
   glow: { position: 'absolute', width: 600, height: 600, borderRadius: '50%', background: 'radial-gradient(circle, rgba(93,232,184,0.10) 0%, transparent 70%)', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', pointerEvents: 'none' },
   card: { background: 'rgba(13,34,51,0.75)', border: '1px solid rgba(60,180,130,0.25)', borderRadius: 18, padding: '40px 40px 36px', width: '100%', maxWidth: 420, position: 'relative', zIndex: 1, backdropFilter: 'blur(8px)' },
   logoWrap: { marginBottom: 10 },

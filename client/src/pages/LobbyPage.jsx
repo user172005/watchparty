@@ -124,7 +124,7 @@ function Spinner() {
 }
 
 const s = {
-  page: { minHeight: '100vh', background: '#080f0c', display: 'flex', flexDirection: 'column', position: 'relative', overflow: 'hidden' },
+  page: { minHeight: '100vh', background: '#070e14', display: 'flex', flexDirection: 'column', position: 'relative', overflow: 'hidden' },
   glow: { position: 'absolute', width: 700, height: 700, borderRadius: '50%', background: 'radial-gradient(circle, rgba(93,232,184,0.07) 0%, transparent 70%)', top: '30%', left: '50%', transform: 'translate(-50%,-50%)', pointerEvents: 'none', zIndex: 0 },
   header: { display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 32px', borderBottom: '1px solid var(--border)', position: 'relative', zIndex: 10, background: 'rgba(10,26,20,0.7)', backdropFilter: 'blur(6px)' },
   headerRight: { display: 'flex', alignItems: 'center', gap: 16 },
