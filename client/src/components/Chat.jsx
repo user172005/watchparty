@@ -81,7 +81,7 @@ const s = {
   username: { fontSize: 11, color: 'var(--accent2)', fontWeight: 600, paddingLeft: 2 },
   bubble: { padding: '8px 12px', borderRadius: 12, fontSize: 14, lineHeight: 1.45, wordBreak: 'break-word' },
   bubbleThem: { background: 'var(--bg3)', color: 'var(--text)', borderBottomLeftRadius: 4 },
-  bubbleMe: { background: 'var(--accent)', color: '#fff', borderBottomRightRadius: 4 },
+  bubbleMe: { background: 'var(--accent)', color: '#fff', borderBottomRightRadius: 4 },bubbleMe: { background: 'var(--accent)', color: '#000', borderBottomRightRadius: 4 },
   time: { fontSize: 10, color: 'var(--text3)', paddingLeft: 2 },
   inputRow: { display: 'flex', gap: 8, padding: '12px 14px', borderTop: '1px solid var(--border)', flexShrink: 0 },
   input: { flex: 1, background: 'var(--bg3)', border: '1px solid var(--border)', borderRadius: 8, padding: '9px 12px', color: 'var(--text)', fontSize: 14 },
