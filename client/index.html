@@ -6,7 +6,28 @@
     <title>WatchXTogether</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:ital,wght@0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      /* Fallback: force teal theme even if fonts are slow */
+      :root {
+        --bg: #080f0c;
+        --bg2: #0a1a14;
+        --bg3: #0f2d22;
+        --bg4: #153828;
+        --border: rgba(60,180,130,0.2);
+        --border2: rgba(60,180,130,0.35);
+        --text: #d4f5e8;
+        --text2: #7db8a0;
+        --text3: #3a7060;
+        --accent: #5de8b8;
+        --accent2: #3ec898;
+        --accent-dim: rgba(93,232,184,0.12);
+        --red: #ff5565;
+        --green: #3ec898;
+        --yellow: #fbbf24;
+      }
+      html, body { background: #080f0c !important; color: #d4f5e8 !important; }
+    </style>
   </head>
   <body>
     <div id="root"></div>

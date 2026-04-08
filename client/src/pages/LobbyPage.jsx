@@ -124,7 +124,7 @@ function Spinner() {
 }
 
 const s = {
-  page: { minHeight: '100vh', background: 'var(--bg)', display: 'flex', flexDirection: 'column', position: 'relative', overflow: 'hidden' },
+  page: { minHeight: '100vh', background: '#080f0c', display: 'flex', flexDirection: 'column', position: 'relative', overflow: 'hidden' },
   glow: { position: 'absolute', width: 700, height: 700, borderRadius: '50%', background: 'radial-gradient(circle, rgba(93,232,184,0.07) 0%, transparent 70%)', top: '30%', left: '50%', transform: 'translate(-50%,-50%)', pointerEvents: 'none', zIndex: 0 },
   header: { display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 32px', borderBottom: '1px solid var(--border)', position: 'relative', zIndex: 10, background: 'rgba(10,26,20,0.7)', backdropFilter: 'blur(6px)' },
   headerRight: { display: 'flex', alignItems: 'center', gap: 16 },
@@ -133,8 +133,8 @@ const s = {
   logoutBtn: { background: 'transparent', color: 'var(--text3)', fontSize: 13, padding: '6px 12px', borderRadius: 8, border: '1px solid var(--border)' },
   main: { flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '40px 24px', position: 'relative', zIndex: 1 },
   hero: { textAlign: 'center', marginBottom: 52 },
-  headline: { fontSize: 50, fontWeight: 700, lineHeight: 1.15, marginBottom: 16, color: 'var(--text)', letterSpacing: -1, fontFamily: "'Cinzel', serif" },
-  accentText: { color: 'var(--accent)' },
+  headline: { fontSize: 50, fontWeight: 700, lineHeight: 1.15, marginBottom: 16, color: '#d4f5e8', letterSpacing: -1, fontFamily: "'Cinzel', serif" },
+  accentText: { color: '#5de8b8' },
   sub: { fontSize: 15, color: 'var(--text2)', fontWeight: 300, letterSpacing: 0.5 },
   cards: { display: 'flex', alignItems: 'stretch', gap: 0, background: 'rgba(13,34,51,0.65)', border: '1px solid var(--border)', borderRadius: 18, overflow: 'hidden', width: '100%', maxWidth: 700, backdropFilter: 'blur(8px)' },
   card: { flex: 1, padding: '36px 36px 32px' },
